@@ -13,3 +13,10 @@
 .btn:hover {
   background: @white - 50%;
 }
+
+each(@button-sizes, {
+  .btn.btn-@{value} {
+    font-size: (4px + (6px * @index));
+    padding: (1px + (4px * @index)) (5px + (10px * @index));
+  }
+});
