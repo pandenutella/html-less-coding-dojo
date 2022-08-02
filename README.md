@@ -10,16 +10,20 @@
    ```cmd
    npm install --save-dev less
    ```
-3. Create a `src` folder by running the ff.:
+3. Create a `.gitignore` file containing the `node_modules` folder.
+   ```
+   node_modules
+   ```
+4. Create a `src` folder by running the ff.:
    ```cmd
    mkdir src
    ```
-4. Create an empty `index.less` file in `src` folder.
-5. Write an npm script for transpiling your `less codes to css` by adding the below property in your `package.json` under `scripts`.
+5. Create an empty `index.less` file in `src` folder.
+6. Write an npm script for transpiling your `less codes to css` by adding the below property in your `package.json` under `scripts`.
    ```json
    "less:compile": "lessc src/index.less src/index.css"
    ```
-6. Run the compile script by running the ff. in your terminal:
+7. Run the compile script by running the ff. in your terminal:
 
    ```cmd
    npm run less:compile
@@ -29,7 +33,7 @@
 
    _Note: The generated `index.css` file is empty because we still haven't written anything in our `index.less` file yet._
 
-7. Create an `index.html` file under `src` folder and populate it using the codes below:
+8. Create an `index.html` file under `src` folder and populate it using the codes below:
    ```html
    <!DOCTYPE html>
    <html lang="en">
@@ -42,24 +46,24 @@
      <body></body>
    </html>
    ```
-8. Insert `index.css` in `index.html` by adding a `link` element inside `head`.
+9. Insert `index.css` in `index.html` by adding a `link` element inside `head`.
 
    ```html
    <link rel="stylesheet" href="index.css" />
    ```
 
-9. In your `index.html`, add the ff. elements inside `body`:
+10. In your `index.html`, add the ff. elements inside `body`:
 
-   ```html
-   <button class="btn btn-sm">Small Button</button>
-   <button class="btn btn-sm btn-red">Small Red Button</button>
-   <button class="btn btn-green">Green Button</button>
-   <button class="btn btn-lg btn-blue">Large Blue Button</button>
-   ```
+    ```html
+    <button class="btn btn-sm">Small Button</button>
+    <button class="btn btn-sm btn-red">Small Red Button</button>
+    <button class="btn btn-green">Green Button</button>
+    <button class="btn btn-lg btn-blue">Large Blue Button</button>
+    ```
 
-   After adding the buttons, open `index.html` in your browser. You should be able to see **four** plain buttons.
+    After adding the buttons, open `index.html` in your browser. You should be able to see **four** plain buttons.
 
-   _Note: We will create the `btn` classes later using `less` to align the design of the buttons with their names._
+    _Note: We will create the `btn` classes later using `less` to align the design of the buttons with their names._
 
 ## Development Instructions:
 
