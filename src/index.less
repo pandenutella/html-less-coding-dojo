@@ -21,6 +21,16 @@
       padding: (1px + (4px * @index)) (5px + (10px * @index));
     }
   });
+
+  each(@button-colors, {
+    &&-@{key} {
+      color: @white;
+      background: @value !important;
+    }
+    &&-@{key}:hover {
+      background: (@value - 50%) !important;
+    }
+  });
 }
 .btn:hover {
   background: @white - 50%;

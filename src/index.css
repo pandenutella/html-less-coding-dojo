@@ -15,6 +15,27 @@
   font-size: 16px;
   padding: 9px 25px;
 }
+.btn.btn-red {
+  color: whitesmoke;
+  background: darkred !important;
+}
+.btn.btn-red:hover {
+  background: #590000 !important;
+}
+.btn.btn-green {
+  color: whitesmoke;
+  background: darkgreen !important;
+}
+.btn.btn-green:hover {
+  background: #003200 !important;
+}
+.btn.btn-blue {
+  color: whitesmoke;
+  background: darkblue !important;
+}
+.btn.btn-blue:hover {
+  background: #000059 !important;
+}
 .btn:hover {
   background: #c3c3c3;
 }
