@@ -6,13 +6,13 @@
    ```cmd
    npm init -y
    ```
-2. Install `less` by running the ff.:
-   ```cmd
-   npm install --save-dev less
-   ```
-3. Create a `.gitignore` file containing the `node_modules` folder.
+2. Create a `.gitignore` file containing the `node_modules` folder.
    ```
    node_modules
+   ```
+3. Install `less` by running the ff.:
+   ```cmd
+   npm install --save-dev less
    ```
 4. Create a `src` folder by running the ff.:
    ```cmd
