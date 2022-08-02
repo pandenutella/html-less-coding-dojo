@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pandenutella/html-less-coding-dojo/issues"
   },
-  "homepage": "https://github.com/pandenutella/html-less-coding-dojo#readme"
+  "homepage": "https://github.com/pandenutella/html-less-coding-dojo#readme",
+  "devDependencies": {
+    "less": "^4.1.3"
+  }
 }
