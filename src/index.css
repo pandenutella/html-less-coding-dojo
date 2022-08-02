@@ -7,9 +7,6 @@
   font-size: 13px;
   padding: 5px 20px;
 }
-.btn:hover {
-  background: #c3c3c3;
-}
 .btn.btn-sm {
   font-size: 10px;
   padding: 5px 15px;
@@ -17,4 +14,7 @@
 .btn.btn-lg {
   font-size: 16px;
   padding: 9px 25px;
+}
+.btn:hover {
+  background: #c3c3c3;
 }
