@@ -4,7 +4,7 @@
   "description": "1. Create a new npm project by running the ff. in your terminal:\r    ```cmd\r    npm init -y\r    ```\r 2. Install `less` by running the ff.:\r    ```cmd\r    npm install --save-dev less\r    ```\r 3. Create a `src` folder by running the ff.:\r    ```cmd\r    mkdir src\r    ```\r 4. Create an empty `index.less` file in `src` folder.\r 5. Write an npm script for transpiling your `less codes to css` by adding the below property in your `package.json` under `scripts`.\r    ```json\r    \"less:compile\": \"lessc src/index.less src/index.css\"\r    ```\r 6. Run the compile script by running the ff. in your terminal:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "less:compile": "lessc src/index.less src/index.css"
   },
   "repository": {
     "type": "git",
