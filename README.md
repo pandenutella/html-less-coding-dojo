@@ -4,11 +4,9 @@
 
 1. Create a new npm project by running the ff. in your terminal:
    ```cmd
-   mkdir less-app
-   cd less-app
    npm init -y
    ```
-2. Install less by running the ff.:
+2. Install `less` by running the ff.:
    ```cmd
    npm install --save-dev less
    ```
